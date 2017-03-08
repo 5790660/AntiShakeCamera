@@ -1,0 +1,22 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.aaron.camera.LineView
+            android:id="@+id/line"
+            android:layout_width="20000dp"
+            android:layout_height="500dp"
+            android:background="@color/colorPrimaryDark">
+        </com.aaron.camera.LineView>
+
+        </LinearLayout>
+
+</HorizontalScrollView>
